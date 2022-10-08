@@ -19,7 +19,10 @@
  */
 
 // Finish the code of the function
-function exercise18() {}
+async function exercise18() {
+   let awaitFetch = await fetch("https://jsonplaceholder.typicode.com/users/1");
+   let npm = await awaitFetch.json();
+   displayContents(npm);}
 
 // Don’t change the code bellow this line
 function displayContents(data) {
@@ -28,4 +31,4 @@ function displayContents(data) {
     wrapper.textContent = JSON.stringify(data, null, 2);
 }
 
-export default exercise18;
+export default exercise18
