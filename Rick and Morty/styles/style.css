@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    margin-top: 0.5em;
+    border-bottom:0px solid;
+    box-shadow: 0px 6px #cccbcb;
+}
+#title { color: black;
+    margin-left: 1.5em;
+    font-family: arial black, sans-serif;
+    font-size: large;
+}
+#content {
+    display: flex;
+    flex-direction: row;
+    margin:0%
+}
+#sideBar {
+    display:flex;
+    flex-direction: column;
+    padding-right: 10em;
+    padding-left: 3em;
+    border-right: 0px solid;
+    box-shadow: 10px 0px #cccbcb;
+}
+a {
+    color:black;
+    margin-top: 20%;
+}
+#episodeButton { 
+    background-color: black;
+    color: white;
+    margin-bottom: 20%;
+    margin-top: 20%;
+    padding: 1em;
+}
